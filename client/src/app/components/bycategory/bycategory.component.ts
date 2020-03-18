@@ -6,7 +6,7 @@ import { HomeService } from '../../services/home.service';
 @Component({
   selector: 'app-bycategory',
   templateUrl: './bycategory.component.html',
-  styleUrls: ['./bycategory.component.scss']
+  styleUrls: ['./bycategory.component.css']
 })
 export class BycategoryComponent implements OnInit {
 

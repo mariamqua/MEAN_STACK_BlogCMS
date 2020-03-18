@@ -15,7 +15,7 @@ export class MyErrorStateMatcher implements ErrorStateMatcher {
 @Component({
   selector: 'app-category-edit',
   templateUrl: './category-edit.component.html',
-  styleUrls: ['./category-edit.component.scss']
+  styleUrls: ['./category-edit.component.css']
 })
 export class CategoryEditComponent implements OnInit {
 

@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { TokenInterceptor } from './interceptors/token.interceptor';
-import { CKEditorModule } from 'ckeditor4-angular';
+import { CKEditorModule } from '@ckeditor/ckeditor5-angular'
 import { MatContenteditableModule } from 'mat-contenteditable';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -48,7 +48,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   ],
   imports: [
     BrowserModule,MaterialModule,FormsModule,CKEditorModule,
-    MatContenteditableModule,
+    MatContenteditableModule,   
     ReactiveFormsModule,AppRoutingModule,HttpClientModule, BrowserAnimationsModule,
   ],
   providers: [

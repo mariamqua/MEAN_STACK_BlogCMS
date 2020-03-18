@@ -17,7 +17,7 @@ export class MyErrorStateMatcher implements ErrorStateMatcher {
 @Component({
   selector: 'app-post-edit',
   templateUrl: './post-edit.component.html',
-  styleUrls: ['./post-edit.component.scss']
+  styleUrls: ['./post-edit.component.css']
 })
 export class PostEditComponent implements OnInit {
 
